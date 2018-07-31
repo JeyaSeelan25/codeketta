@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-char ch;
-scanf("%c",&ch);
-if(ch=='A'||ch=='a'||ch=='E'||ch=='e'||ch=='I'||ch=='i'||ch=='O'||ch=='o'||ch=='U'||ch=='u')
+char cha;
+scanf("%c",&cha);
+if(cha=='A'||cha=='a'||cha=='E'||cha=='e'||cha=='I'||cha=='i'||cha=='O'||cha=='o'||cha=='U'||cha=='u')
 {
   printf("Vowel");
 }
  else
  {
-   printf("Consonant");
+   printf("Not a Vowel");
  }
    return 0;
   }
