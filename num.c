@@ -1,19 +1,19 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
-scanf("%d %d %d",&a,&b,&c);
-if(a>b)
+int x,y,z;
+scanf("%d %d %d",&x,&y,&z);
+if(x>y)
 {
-  printf("%d ",a);
+  printf("%d ",x);
 }
-else if(b>c)
+else if(y>z)
 {
-  printf("%d ",b);
+  printf("%d ",y);
 }
 else
 {
- printf("%d",c);
+ printf("%d",z);
 }
 return 0;
 }
