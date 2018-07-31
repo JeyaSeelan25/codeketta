@@ -2,15 +2,15 @@
 #include<ctype.h>
 int main()
 {
-char ch;
-scanf("%c",&ch);
-if(isalpha(ch))
+char cha;
+scanf("%c",&cha);
+if(isalpha(cha))
 {
   printf("Alphabet");
 }
  else
  {
-   printf("No");
+   printf("Not a Alphabet");
  }
    return 0;
    }
